@@ -118,7 +118,7 @@ mask            = { bg = "#4f585e" }
 cand            = { fg = "#7fbbb3" }
 rest            = { fg = "#9da9a0" }
 desc            = { fg = "#d699b6" }
-separator       = "  "
+separator       = "  "
 separator_style = { fg = "#5a6369" }
 
 # : }}}
@@ -181,34 +181,34 @@ rules = [
 [icon]
 
 dirs = [
-	{ name = ".config", text = "", fg = "#d699b6" },
-	{ name = ".git", text = "", fg = "#7fbbb3" },
-	{ name = ".github", text = "", fg = "#a7c080" },
-	{ name = ".npm", text = "", fg = "#a7c080" },
-	{ name = "Desktop", text = "", fg = "#7fbbb3" },
-	{ name = "Development", text = "", fg = "#7fbbb3" },
-	{ name = "Documents", text = "", fg = "#7fbbb3" },
-	{ name = "Downloads", text = "", fg = "#7fbbb3" },
-	{ name = "Library", text = "", fg = "#7fbbb3" },
-	{ name = "Movies", text = "", fg = "#7fbbb3" },
-	{ name = "Music", text = "", fg = "#7fbbb3" },
-	{ name = "Pictures", text = "", fg = "#7fbbb3" },
-	{ name = "Public", text = "", fg = "#7fbbb3" },
-	{ name = "Videos", text = "", fg = "#7fbbb3" },
+	{ name = ".config", text = "", fg = "#d699b6" },
+	{ name = ".git", text = "", fg = "#7fbbb3" },
+	{ name = ".github", text = "", fg = "#a7c080" },
+	{ name = ".npm", text = "", fg = "#a7c080" },
+	{ name = "Desktop", text = "", fg = "#7fbbb3" },
+	{ name = "Development", text = "", fg = "#7fbbb3" },
+	{ name = "Documents", text = "", fg = "#7fbbb3" },
+	{ name = "Downloads", text = "", fg = "#7fbbb3" },
+	{ name = "Library", text = "", fg = "#7fbbb3" },
+	{ name = "Movies", text = "", fg = "#7fbbb3" },
+	{ name = "Music", text = "", fg = "#7fbbb3" },
+	{ name = "Pictures", text = "", fg = "#7fbbb3" },
+	{ name = "Public", text = "", fg = "#7fbbb3" },
+	{ name = "Videos", text = "", fg = "#7fbbb3" },
 ]
 conds = [
 	# Special files
-	{ if = "orphan", text = "", fg = "#d3c6aa" },
-	{ if = "link", text = "", fg = "#4f585e" },
-	{ if = "block", text = "", fg = "#dbbc7f" },
-	{ if = "char", text = "", fg = "#dbbc7f" },
-	{ if = "fifo", text = "", fg = "#dbbc7f" },
-	{ if = "sock", text = "", fg = "#dbbc7f" },
-	{ if = "sticky", text = "", fg = "#dbbc7f" },
-	{ if = "dummy", text = "", fg = "#e67e80" },
+	{ if = "orphan", text = "", fg = "#d3c6aa" },
+	{ if = "link", text = "", fg = "#4f585e" },
+	{ if = "block", text = "", fg = "#dbbc7f" },
+	{ if = "char", text = "", fg = "#dbbc7f" },
+	{ if = "fifo", text = "", fg = "#dbbc7f" },
+	{ if = "sock", text = "", fg = "#dbbc7f" },
+	{ if = "sticky", text = "", fg = "#dbbc7f" },
+	{ if = "dummy", text = "", fg = "#e67e80" },
 
 	# Fallback
-	{ if = "dir", text = "", fg = "#a7c080" },
-	{ if = "exec", text = "", fg = "#a7c080" },
-	{ if = "!dir", text = "", fg = "#d3c6aa" },
+	{ if = "dir", text = "", fg = "#a7c080" },
+	{ if = "exec", text = "", fg = "#a7c080" },
+	{ if = "!dir", text = "", fg = "#d3c6aa" },
 ]
